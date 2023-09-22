@@ -1,6 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>&gt;&gt; echo &#39;honeypot&#39;</title>
+        <title>&gt;&gt; blue_e</title>
         <link>https://blue.sbs/</link>
         <description>Sharing Tech, Software, CyberSecurity Info</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 06 Mar 2022 22:26:39 &#43;0800</lastBuildDate>
@@ -13,7 +13,7 @@
     <guid>https://blue.sbs/posts/03/</guid>
     <description><![CDATA[Never use print for debugging again, using the poor man debugger]]></description>
 </item><item>
-    <title>What is the hoenypot ?</title>
+    <title>What is the honeypot ?</title>
     <link>https://blue.sbs/posts/02/</link>
     <pubDate>Tue, 01 Mar 2022 23:28:17 &#43;0800</pubDate>
     <author>Author</author>

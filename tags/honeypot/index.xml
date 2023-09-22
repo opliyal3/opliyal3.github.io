@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>honeypot - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
+        <title>honeypot - Tag - &gt;&gt; blue_e</title>
         <link>https://blue.sbs/tags/honeypot/</link>
-        <description>honeypot - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
+        <description>honeypot - Tag - &gt;&gt; blue_e</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 01 Mar 2022 23:28:17 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/honeypot/" rel="self" type="application/rss+xml" /><item>
-    <title>What is the hoenypot ?</title>
+    <title>What is the honeypot ?</title>
     <link>https://blue.sbs/posts/02/</link>
     <pubDate>Tue, 01 Mar 2022 23:28:17 &#43;0800</pubDate>
     <author>Author</author>
