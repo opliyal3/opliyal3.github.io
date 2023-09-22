@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Security - Category - &gt;&gt; echo &#39;honeypot&#39;</title>
+        <link>https://blue.sbs/categories/security/</link>
+        <description>Security - Category - &gt;&gt; echo &#39;honeypot&#39;</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 01 Mar 2022 23:28:17 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/categories/security/" rel="self" type="application/rss+xml" /><item>
+    <title>What is the hoenypot ?</title>
+    <link>https://blue.sbs/posts/02/</link>
+    <pubDate>Tue, 01 Mar 2022 23:28:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/posts/02/</guid>
+    <description><![CDATA[Honeypot is a computer security mechanism set to detect, deflect, or, in some manner, counteract attempts at unauthorized use of information systems. Generally, a honeypot consists of data (for example, in a network site) that appears to be a legitimate part of the site and contain information or resources of value to attackers. It is actually isolated, monitored, and capable of blocking or analyzing the attackers.]]></description>
+</item></channel>
+</rss>
