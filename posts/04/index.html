@@ -154,7 +154,7 @@
 </span></span><span class="line"><span class="cl">tar -xzvf libdnet-1.11.tar.gz 
 </span></span><span class="line"><span class="cl"><span class="nb">cd</span> libdnet-1.11 
 </span></span><span class="line"><span class="cl">./configure <span class="s2">&#34;CFLAGS=-fPIC -g -O2&#34;</span> <span class="o">&amp;&amp;</span> make <span class="o">&amp;&amp;</span> make install
-</span></span></code></pre></div><p>設定 Snort  NFQ:</p>
+</span></span></code></pre></div><p>設定 Snort NFQ:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">iptables -t nat -I PREROUTING -j NFQUEUE --queue-num <span class="m">1</span>
 </span></span><span class="line"><span class="cl">iptables -I FORWARD -j NFQUEUE --queue-num <span class="m">1</span>
 </span></span><span class="line"><span class="cl">iptables -I INPUT -j NFQUEUE --queue-num <span class="m">1</span>
