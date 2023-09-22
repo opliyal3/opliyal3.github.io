@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - Tag - &gt;&gt; blue_e</title>
+        <title>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
         <link>https://blue.sbs/tags/</link>
-        <description>Tags - Tag - &gt;&gt; blue_e</description>
+        <description>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 06 Mar 2022 22:26:39 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/" rel="self" type="application/rss+xml" /><item>
     <title>debug</title>
     <link>https://blue.sbs/tags/debug/</link>
