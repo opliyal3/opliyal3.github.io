@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ips - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
+        <link>https://blue.sbs/tags/ips/</link>
+        <description>ips - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 19:50:52 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/ips/" rel="self" type="application/rss+xml" /><item>
+    <title>Snort IPS with NFQ</title>
+    <link>https://blue.sbs/posts/04/</link>
+    <pubDate>Fri, 22 Sep 2023 19:50:52 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/posts/04/</guid>
+    <description><![CDATA[Running Snort with IPS mode]]></description>
+</item></channel>
+</rss>

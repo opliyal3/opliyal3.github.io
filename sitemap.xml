@@ -2,15 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://blue.sbs/</loc><lastmod>2022-03-06T22:26:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blue.sbs/categories/</loc><lastmod>2022-03-06T22:26:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://blue.sbs/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/categories/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/ips/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/posts/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/categories/security/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/snort/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/posts/04/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/tags/debug/</loc><lastmod>2022-03-06T22:26:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/tags/decorator/</loc><lastmod>2022-03-06T22:26:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/posts/03/</loc><lastmod>2022-03-06T22:26:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blue.sbs/posts/</loc><lastmod>2022-03-06T22:26:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/categories/python3/</loc><lastmod>2022-03-06T22:26:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blue.sbs/tags/</loc><lastmod>2022-03-06T22:26:39&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/tags/honeypot/</loc><lastmod>2022-03-01T23:28:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blue.sbs/categories/security/</loc><lastmod>2022-03-01T23:28:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/posts/02/</loc><lastmod>2022-03-01T23:28:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/posts/01/</loc><lastmod>2022-02-27T12:02:51&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
