@@ -3,7 +3,35 @@
         <title>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
         <link>https://blue.sbs/tags/</link>
         <description>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 29 Sep 2023 07:50:35 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>log</title>
+    <link>https://blue.sbs/tags/log/</link>
+    <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/tags/log/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>powershell</title>
+    <link>https://blue.sbs/tags/powershell/</link>
+    <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/tags/powershell/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>threat hunting</title>
+    <link>https://blue.sbs/tags/threat-hunting/</link>
+    <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/tags/threat-hunting/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>windows</title>
+    <link>https://blue.sbs/tags/windows/</link>
+    <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/tags/windows/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>analysis</title>
     <link>https://blue.sbs/tags/analysis/</link>
     <pubDate>Fri, 29 Sep 2023 07:50:35 &#43;0800</pubDate>
@@ -44,27 +72,6 @@
     <pubDate>Fri, 22 Sep 2023 19:50:52 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://blue.sbs/tags/snort/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>debug</title>
-    <link>https://blue.sbs/tags/debug/</link>
-    <pubDate>Sun, 06 Mar 2022 22:26:39 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blue.sbs/tags/debug/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>decorator</title>
-    <link>https://blue.sbs/tags/decorator/</link>
-    <pubDate>Sun, 06 Mar 2022 22:26:39 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blue.sbs/tags/decorator/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>honeypot</title>
-    <link>https://blue.sbs/tags/honeypot/</link>
-    <pubDate>Tue, 01 Mar 2022 23:28:17 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blue.sbs/tags/honeypot/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

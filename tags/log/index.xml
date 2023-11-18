@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>log - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
+        <link>https://blue.sbs/tags/log/</link>
+        <description>log - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/log/" rel="self" type="application/rss+xml" /><item>
+    <title>Logging PowerShell using Script Block Logging</title>
+    <link>https://blue.sbs/posts/06/</link>
+    <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/posts/06/</guid>
+    <description><![CDATA[Logging all PowerShell command activities.]]></description>
+</item></channel>
+</rss>

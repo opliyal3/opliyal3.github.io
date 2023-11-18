@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Pcap Analysis with Suricata - &gt;&gt; echo &#39;honeypot&#39;</title>
+        <title>Logging PowerShell using Script Block Logging - &gt;&gt; echo &#39;honeypot&#39;</title>
         
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D6E62E0CTD"></script>
 <script>
@@ -14,32 +14,32 @@
   gtag('js', new Date());
 
   gtag('config', 'G-D6E62E0CTD');
-</script><meta name="Description" content="Pcap Analysis with Suricata"><meta property="og:title" content="Pcap Analysis with Suricata" />
-<meta property="og:description" content="Pcap Analysis with Suricata" />
+</script><meta name="Description" content="Logging all PowerShell command activities."><meta property="og:title" content="Logging PowerShell using Script Block Logging" />
+<meta property="og:description" content="Logging all PowerShell command activities." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blue.sbs/posts/05/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-09-29T07:50:35+08:00" />
-<meta property="article:modified_time" content="2023-09-29T07:50:35+08:00" />
+<meta property="og:url" content="https://blue.sbs/posts/06/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-18T10:38:27+08:00" />
+<meta property="article:modified_time" content="2023-11-18T10:38:27+08:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Pcap Analysis with Suricata"/>
-<meta name="twitter:description" content="Pcap Analysis with Suricata"/>
+<meta name="twitter:title" content="Logging PowerShell using Script Block Logging"/>
+<meta name="twitter:description" content="Logging all PowerShell command activities."/>
 <meta name="application-name" content="&gt;&gt; echo &#39;honeypot&#39;">
-<meta name="apple-mobile-web-app-title" content="&gt;&gt; echo &#39;honeypot&#39;"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://blue.sbs/posts/05/" /><link rel="prev" href="https://blue.sbs/posts/04/" /><link rel="next" href="https://blue.sbs/posts/06/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="&gt;&gt; echo &#39;honeypot&#39;"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://blue.sbs/posts/06/" /><link rel="prev" href="https://blue.sbs/posts/05/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Pcap Analysis with Suricata",
+        "headline": "Logging PowerShell using Script Block Logging",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/blue.sbs\/posts\/05\/"
-        },"genre": "posts","keywords": "suricata, ids, pcap, analysis","wordcount":  148 ,
-        "url": "https:\/\/blue.sbs\/posts\/05\/","datePublished": "2023-09-29T07:50:35+08:00","dateModified": "2023-09-29T07:50:35+08:00","publisher": {
+            "@id": "https:\/\/blue.sbs\/posts\/06\/"
+        },"genre": "posts","keywords": "windows, powershell, log, threat hunting","wordcount":  134 ,
+        "url": "https:\/\/blue.sbs\/posts\/06\/","datePublished": "2023-11-18T10:38:27+08:00","dateModified": "2023-11-18T10:38:27+08:00","publisher": {
             "@type": "Organization",
             "name": " l3lue_e"},"author": {
                 "@type": "Person",
                 "name": " l3lue_e"
-            },"description": "Pcap Analysis with Suricata"
+            },"description": "Logging all PowerShell command activities."
     }
     </script></head>
     <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -108,9 +108,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">Pcap Analysis with Suricata</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animated flipInX">Logging PowerShell using Script Block Logging</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i> l3lue_e</a></span>&nbsp;<span class="post-category">included in <a href="/categories/security/"><i class="far fa-folder fa-fw"></i>Security</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-09-29">2023-09-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;148 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-11-18">2023-11-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;134 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -121,66 +121,40 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#pcap-analysis-with-suricata"><strong><strong>Pcap Analysis with Suricata</strong></strong></a></li>
-        <li><a href="#env"><strong><strong>ENV</strong></strong></a></li>
-        <li><a href="#usage"><strong><strong>USAGE</strong></strong></a></li>
+        <li><a href="#logging-powershell-using-script-block-logging"><strong><strong>Logging PowerShell using Script Block Logging</strong></strong></a></li>
+        <li><a href="#windows-version"><strong><strong>Windows Version</strong></strong></a></li>
+        <li><a href="#setup"><strong><strong>Setup</strong></strong></a></li>
         <li><a href="#example"><strong><strong>EXAMPLE</strong></strong></a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h3 id="pcap-analysis-with-suricata"><strong><strong>Pcap Analysis with Suricata</strong></strong></h3>
-<p>因為 Snort3 改得複雜且網路上資源太少, 記錄下利用 Suricata 讀取 Pcap 過 rule 並產生 event.</p>
-<p>後續可利用 logstash &hellip; 等工具串接進去 SIEM</p>
-<h3 id="env"><strong><strong>ENV</strong></strong></h3>
+            </div><div class="content" id="content"><h3 id="logging-powershell-using-script-block-logging"><strong><strong>Logging PowerShell using Script Block Logging</strong></strong></h3>
+<p>預設的Windows事件日誌(Event 4104)系統，其資訊搜集範圍有限，無法完整記錄所有PowerShell指令。</p>
+<p>若需全面追蹤所有指令，需啟用指令區塊記錄（Script Block Logging）功能。</p>
+<h3 id="windows-version"><strong><strong>Windows Version</strong></strong></h3>
+<p>目前測試可用環境</p>
 <ul>
-<li>MAC M1</li>
-<li>OrbStack Container</li>
-<li>Image: jasonish/suricata</li>
+<li>Windows Server 2012, 2019</li>
+<li>Windows 7, 10</li>
 </ul>
-<h3 id="usage"><strong><strong>USAGE</strong></strong></h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">suricata -c suricata.yaml -r yourpcap.pcap
-</span></span></code></pre></div><p>By configuring suricata.yaml in this way, you can ensure that only rule alerts are directed to eve.json as output.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="l">%YAML 1.1</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Suricata configuration file. In addition to the comments describing all</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># options in this file, full documentation can be found at:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># https://docs.suricata.io/en/latest/configuration/suricata-yaml.html</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># This configuration file generated by Suricata 7.0.1.</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">suricata-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;7.0&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">vars</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">address-groups</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">HOME_NET</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;[192.168.0.0/16,10.0.0.0/8,172.16.0.0/12]&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">EXTERNAL_NET</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;!$HOME_NET&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Only alerts</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">outputs</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">eve-log</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">yes</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">filename</span><span class="p">:</span><span class="w"> </span><span class="l">eve.json</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">types</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="l">alert</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># Your rules path</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">default-rule-path</span><span class="p">:</span><span class="w"> </span><span class="l">/tmp</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">rule-files</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">suricata.rules</span><span class="w">
-</span></span></span></code></pre></div><h3 id="example"><strong><strong>EXAMPLE</strong></strong></h3>
+<h3 id="setup"><strong><strong>Setup</strong></strong></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">New-Item</span> <span class="s1">&#39;HKLM:\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging&#39;</span> <span class="n">-Force</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">New-ItemProperty</span> <span class="s2">&#34;HKLM:\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging&#34;</span> <span class="n">-Name</span>
+</span></span><span class="line"><span class="cl"><span class="n">EnableScriptBlockLogging</span> <span class="n">-Value</span> <span class="mf">1</span> <span class="n">-PropertyType</span> <span class="n">Dword</span>
+</span></span></code></pre></div><h3 id="example"><strong><strong>EXAMPLE</strong></strong></h3>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="/images/suricata_log.png"
-        data-srcset="/images/suricata_log.png, /images/suricata_log.png 1.5x, /images/suricata_log.png 2x"
+        data-src="/images/ps_reg.png"
+        data-srcset="/images/ps_reg.png, /images/ps_reg.png 1.5x, /images/ps_reg.png 2x"
         data-sizes="auto"
-        alt="/images/suricata_log.png"
-        title="suricata_log.png" /></p></div><div class="post-footer" id="post-footer">
+        alt="/images/ps_reg.png"
+        title="ps_reg.png" /></p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2023-09-29</span>
+                <span>Updated on 2023-11-18</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -193,14 +167,13 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/suricata/">suricata</a>,&nbsp;<a href="/tags/ids/">ids</a>,&nbsp;<a href="/tags/pcap/">pcap</a>,&nbsp;<a href="/tags/analysis/">analysis</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/windows/">windows</a>,&nbsp;<a href="/tags/powershell/">powershell</a>,&nbsp;<a href="/tags/log/">log</a>,&nbsp;<a href="/tags/threat-hunting/">threat hunting</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/04/" class="prev" rel="prev" title="Snort IPS with NFQ"><i class="fas fa-angle-left fa-fw"></i>Snort IPS with NFQ</a>
-            <a href="/posts/06/" class="next" rel="next" title="Logging PowerShell using Script Block Logging">Logging PowerShell using Script Block Logging<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"><a href="/posts/05/" class="prev" rel="prev" title="Pcap Analysis with Suricata"><i class="fas fa-angle-left fa-fw"></i>Pcap Analysis with Suricata</a></div>
 </div>
 </article></div>
             </main><footer class="footer">
