@@ -3,7 +3,6 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
             <loc>https://blue.sbs/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://blue.sbs/posts/07/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/categories/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/tags/log/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/posts/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -11,6 +10,7 @@
             <loc>https://blue.sbs/tags/splunk/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/tags/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/tags/threat-hunting/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/posts/07/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/tags/windows/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/posts/06/</loc><lastmod>2023-11-18T10:38:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/tags/powershell/</loc><lastmod>2023-11-18T10:38:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
