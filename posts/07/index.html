@@ -33,7 +33,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/blue.sbs\/posts\/07\/"
-        },"genre": "posts","keywords": "windows, splunk, log, threat hunting","wordcount":  296 ,
+        },"genre": "posts","keywords": "windows, splunk, log, threat hunting","wordcount":  292 ,
         "url": "https:\/\/blue.sbs\/posts\/07\/","datePublished": "2024-03-19T14:28:18+08:00","dateModified": "2024-03-19T14:28:18+08:00","publisher": {
             "@type": "Organization",
             "name": " l3lue_e"},"author": {
@@ -110,7 +110,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Threat Hunting with Splunk - Detecting Browser Downloaded Files</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i> l3lue_e</a></span>&nbsp;<span class="post-category">included in <a href="/categories/security/"><i class="far fa-folder fa-fw"></i>Security</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-03-19">2024-03-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;296 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-03-19">2024-03-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;292 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -122,8 +122,9 @@
     <li>
       <ul>
         <li><a href="#threat-hunting-with-splunk---detecting-browser-downloaded-files"><strong><strong>Threat Hunting with Splunk - Detecting Browser Downloaded Files</strong></strong></a></li>
-        <li><a href="#env"><strong><strong>ENV</strong></strong></a></li>
         <li><a href="#scenario"><strong><strong>Scenario</strong></strong></a></li>
+        <li><a href="#env"><strong><strong>ENV</strong></strong></a></li>
+        <li><a href="#hunting"><strong><strong>Hunting</strong></strong></a></li>
         <li><a href="#hint-"><strong><strong>Hint ????</strong></strong></a></li>
         <li><a href="#reference"><strong><strong>Reference</strong></strong></a></li>
       </ul>
@@ -131,7 +132,8 @@
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h3 id="threat-hunting-with-splunk---detecting-browser-downloaded-files"><strong><strong>Threat Hunting with Splunk - Detecting Browser Downloaded Files</strong></strong></h3>
-<p>故事情境: 公司內部安全人員想要知道員工從 Chrome 瀏覽器下載的檔案資訊, 以做後續的分析</p>
+<h3 id="scenario"><strong><strong>Scenario</strong></strong></h3>
+<p>公司內部安全人員想要知道員工從 Chrome 瀏覽器下載的檔案資訊, 以做後續的分析</p>
 <h3 id="env"><strong><strong>ENV</strong></strong></h3>
 <ul>
 <li>Docker</li>
@@ -140,7 +142,7 @@
 <li>Logs format: Sysmon</li>
 <li>Log forwarder: Splunk Universal Forwarder</li>
 </ul>
-<h3 id="scenario"><strong><strong>Scenario</strong></strong></h3>
+<h3 id="hunting"><strong><strong>Hunting</strong></strong></h3>
 <p>首先我們要先找到使用者從 Chrome 下載檔案的事件, 可以利用 Sysmon Event ID 1, 11, 15</p>
 <ul>
 <li>1: ProcessCreate</li>
