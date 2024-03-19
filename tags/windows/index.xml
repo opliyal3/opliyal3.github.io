@@ -3,7 +3,14 @@
         <title>windows - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
         <link>https://blue.sbs/tags/windows/</link>
         <description>windows - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/windows/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/windows/" rel="self" type="application/rss+xml" /><item>
+    <title>Building Association Rules with Splunk - Detecting Browser Downloaded Files</title>
+    <link>https://blue.sbs/posts/07/</link>
+    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/posts/07/</guid>
+    <description><![CDATA[Explore how to elevate your threat hunting capabilities with Splunk.]]></description>
+</item><item>
     <title>Logging PowerShell using Script Block Logging</title>
     <link>https://blue.sbs/posts/06/</link>
     <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>

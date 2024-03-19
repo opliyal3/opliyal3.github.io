@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>splunk - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
+        <link>https://blue.sbs/tags/splunk/</link>
+        <description>splunk - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/splunk/" rel="self" type="application/rss+xml" /><item>
+    <title>Building Association Rules with Splunk - Detecting Browser Downloaded Files</title>
+    <link>https://blue.sbs/posts/07/</link>
+    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/posts/07/</guid>
+    <description><![CDATA[Explore how to elevate your threat hunting capabilities with Splunk.]]></description>
+</item></channel>
+</rss>

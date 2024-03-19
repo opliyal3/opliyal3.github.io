@@ -3,12 +3,33 @@
         <title>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
         <link>https://blue.sbs/tags/</link>
         <description>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/" rel="self" type="application/rss+xml" /><item>
     <title>log</title>
     <link>https://blue.sbs/tags/log/</link>
-    <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
+    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://blue.sbs/tags/log/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>splunk</title>
+    <link>https://blue.sbs/tags/splunk/</link>
+    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/tags/splunk/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>threat hunting</title>
+    <link>https://blue.sbs/tags/threat-hunting/</link>
+    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/tags/threat-hunting/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>windows</title>
+    <link>https://blue.sbs/tags/windows/</link>
+    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blue.sbs/tags/windows/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>powershell</title>
@@ -16,20 +37,6 @@
     <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://blue.sbs/tags/powershell/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>threat hunting</title>
-    <link>https://blue.sbs/tags/threat-hunting/</link>
-    <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blue.sbs/tags/threat-hunting/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>windows</title>
-    <link>https://blue.sbs/tags/windows/</link>
-    <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blue.sbs/tags/windows/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>analysis</title>
@@ -65,13 +72,6 @@
     <pubDate>Fri, 22 Sep 2023 19:50:52 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://blue.sbs/tags/ips/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>snort</title>
-    <link>https://blue.sbs/tags/snort/</link>
-    <pubDate>Fri, 22 Sep 2023 19:50:52 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blue.sbs/tags/snort/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
