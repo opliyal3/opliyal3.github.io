@@ -2,23 +2,26 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://blue.sbs/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://blue.sbs/categories/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/analysis/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/categories/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/posts/08/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/cve/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/ids/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/pcap/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/posts/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/categories/security/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/suricata/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://blue.sbs/tags/zoho-manageengine/</loc><lastmod>2024-03-22T21:24:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/tags/log/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://blue.sbs/posts/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://blue.sbs/categories/security/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/tags/splunk/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://blue.sbs/tags/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/tags/threat-hunting/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/posts/07/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/tags/windows/</loc><lastmod>2024-03-19T14:28:18&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://blue.sbs/posts/06/</loc><lastmod>2023-11-18T10:38:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/tags/powershell/</loc><lastmod>2023-11-18T10:38:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blue.sbs/tags/analysis/</loc><lastmod>2023-09-29T07:50:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blue.sbs/tags/ids/</loc><lastmod>2023-09-29T07:50:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blue.sbs/tags/pcap/</loc><lastmod>2023-09-29T07:50:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/posts/05/</loc><lastmod>2023-09-29T07:50:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://blue.sbs/tags/suricata/</loc><lastmod>2023-09-29T07:50:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/tags/ips/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/tags/snort/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://blue.sbs/posts/04/</loc><lastmod>2023-09-22T19:50:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

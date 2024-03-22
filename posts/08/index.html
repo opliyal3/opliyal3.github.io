@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Threat Hunting with Splunk - Detecting Browser Downloaded Files - &gt;&gt; echo &#39;honeypot&#39;</title>
+        <title>Crafting Suricata Rules: - A Deep Dive into CVE-2020-10189 Zoho ManageEngine - &gt;&gt; echo &#39;honeypot&#39;</title>
         
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D6E62E0CTD"></script>
 <script>
@@ -14,32 +14,32 @@
   gtag('js', new Date());
 
   gtag('config', 'G-D6E62E0CTD');
-</script><meta name="Description" content="Explore how to elevate your threat hunting capabilities with Splunk."><meta property="og:title" content="Threat Hunting with Splunk - Detecting Browser Downloaded Files" />
-<meta property="og:description" content="Explore how to elevate your threat hunting capabilities with Splunk." />
+</script><meta name="Description" content="How to use Suricata to analyze network packets and uncover vulnerabilities such as CVE-2020-10189 in Zoho ManageEngine. You&#39;ll learn how to craft IDS rules to detect and mitigate such vulnerabilities, enhancing your system security awareness and capabilities."><meta property="og:title" content="Crafting Suricata Rules: - A Deep Dive into CVE-2020-10189 Zoho ManageEngine" />
+<meta property="og:description" content="How to use Suricata to analyze network packets and uncover vulnerabilities such as CVE-2020-10189 in Zoho ManageEngine. You&#39;ll learn how to craft IDS rules to detect and mitigate such vulnerabilities, enhancing your system security awareness and capabilities." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blue.sbs/posts/07/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-03-19T14:28:18+08:00" />
-<meta property="article:modified_time" content="2024-03-19T14:28:18+08:00" />
+<meta property="og:url" content="https://blue.sbs/posts/08/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-22T21:24:09+08:00" />
+<meta property="article:modified_time" content="2024-03-22T21:24:09+08:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Threat Hunting with Splunk - Detecting Browser Downloaded Files"/>
-<meta name="twitter:description" content="Explore how to elevate your threat hunting capabilities with Splunk."/>
+<meta name="twitter:title" content="Crafting Suricata Rules: - A Deep Dive into CVE-2020-10189 Zoho ManageEngine"/>
+<meta name="twitter:description" content="How to use Suricata to analyze network packets and uncover vulnerabilities such as CVE-2020-10189 in Zoho ManageEngine. You&#39;ll learn how to craft IDS rules to detect and mitigate such vulnerabilities, enhancing your system security awareness and capabilities."/>
 <meta name="application-name" content="&gt;&gt; echo &#39;honeypot&#39;">
-<meta name="apple-mobile-web-app-title" content="&gt;&gt; echo &#39;honeypot&#39;"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://blue.sbs/posts/07/" /><link rel="prev" href="https://blue.sbs/posts/06/" /><link rel="next" href="https://blue.sbs/posts/08/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="&gt;&gt; echo &#39;honeypot&#39;"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://blue.sbs/posts/08/" /><link rel="prev" href="https://blue.sbs/posts/07/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Threat Hunting with Splunk - Detecting Browser Downloaded Files",
+        "headline": "Crafting Suricata Rules: - A Deep Dive into CVE-2020-10189 Zoho ManageEngine",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/blue.sbs\/posts\/07\/"
-        },"genre": "posts","keywords": "windows, splunk, log, threat hunting","wordcount":  292 ,
-        "url": "https:\/\/blue.sbs\/posts\/07\/","datePublished": "2024-03-19T14:28:18+08:00","dateModified": "2024-03-19T14:28:18+08:00","publisher": {
+            "@id": "https:\/\/blue.sbs\/posts\/08\/"
+        },"genre": "posts","keywords": "suricata, ids, pcap, analysis, CVE, Zoho ManageEngine","wordcount":  418 ,
+        "url": "https:\/\/blue.sbs\/posts\/08\/","datePublished": "2024-03-22T21:24:09+08:00","dateModified": "2024-03-22T21:24:09+08:00","publisher": {
             "@type": "Organization",
             "name": " l3lue_e"},"author": {
                 "@type": "Person",
                 "name": " l3lue_e"
-            },"description": "Explore how to elevate your threat hunting capabilities with Splunk."
+            },"description": "How to use Suricata to analyze network packets and uncover vulnerabilities such as CVE-2020-10189 in Zoho ManageEngine. You'll learn how to craft IDS rules to detect and mitigate such vulnerabilities, enhancing your system security awareness and capabilities."
     }
     </script></head>
     <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -108,9 +108,9 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">Threat Hunting with Splunk - Detecting Browser Downloaded Files</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animated flipInX">Crafting Suricata Rules: - A Deep Dive into CVE-2020-10189 Zoho ManageEngine</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i> l3lue_e</a></span>&nbsp;<span class="post-category">included in <a href="/categories/security/"><i class="far fa-folder fa-fw"></i>Security</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-03-19">2024-03-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;292 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-03-22">2024-03-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;418 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -121,88 +121,81 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#threat-hunting-with-splunk---detecting-browser-downloaded-files"><strong><strong>Threat Hunting with Splunk - Detecting Browser Downloaded Files</strong></strong></a></li>
-        <li><a href="#scenario"><strong><strong>Scenario</strong></strong></a></li>
+        <li><a href="#a-deep-dive-into-cve-2020-10189-zoho-manageengine"><strong><strong>A Deep Dive into CVE-2020-10189 Zoho ManageEngine</strong></strong></a></li>
         <li><a href="#env"><strong><strong>ENV</strong></strong></a></li>
-        <li><a href="#hunting"><strong><strong>Hunting</strong></strong></a></li>
-        <li><a href="#hint-"><strong><strong>Hint ????</strong></strong></a></li>
-        <li><a href="#reference"><strong><strong>Reference</strong></strong></a></li>
+        <li><a href="#cve-2020-10189"><strong><strong>CVE-2020-10189</strong></strong></a></li>
+        <li><a href="#extra-rules"><strong><strong>Extra Rules</strong></strong></a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h3 id="threat-hunting-with-splunk---detecting-browser-downloaded-files"><strong><strong>Threat Hunting with Splunk - Detecting Browser Downloaded Files</strong></strong></h3>
-<h3 id="scenario"><strong><strong>Scenario</strong></strong></h3>
-<p>公司內部安全人員想要知道員工從 Chrome 瀏覽器下載的檔案資訊, 以做後續的分析</p>
+            </div><div class="content" id="content"><hr>
+<h3 id="a-deep-dive-into-cve-2020-10189-zoho-manageengine"><strong><strong>A Deep Dive into CVE-2020-10189 Zoho ManageEngine</strong></strong></h3>
+<p>以 CVE-2020-10189 為例, 透過分析 PCAP 寫些 IDS rules 來偵測此事件, 這個 RCE exploit 剛好可以寫很多個不一樣的偵測方式 , IDS rule 驗證方式一樣用之前介紹過的 Suricata 來實作</p>
 <h3 id="env"><strong><strong>ENV</strong></strong></h3>
 <ul>
-<li>Docker</li>
-<li>Image: splunk/splunk:9.2</li>
-<li>Client: Windows 7</li>
-<li>Logs format: Sysmon</li>
-<li>Log forwarder: Splunk Universal Forwarder</li>
+<li>MAC M1</li>
+<li>OrbStack Container</li>
+<li>Image: jasonish/suricata</li>
+<li>PCAP: The pcap file is a self-recorded capture of the traffic from Metasploit to Zoho in a self-hosted VM environment.</li>
 </ul>
-<h3 id="hunting"><strong><strong>Hunting</strong></strong></h3>
-<p>首先我們要先找到使用者從 Chrome 下載檔案的事件, 可以利用 Sysmon Event ID 1, 11, 15</p>
-<ul>
-<li>1: ProcessCreate</li>
-<li>11: FileCreate</li>
-<li>15: FileCreateStreamHash</li>
-</ul>
-<p>這次利用 Event ID 15 收集檔案透過瀏覽器下載的資訊
+<h3 id="cve-2020-10189"><strong><strong>CVE-2020-10189</strong></strong></h3>
+<p>這邊就不討論這個 CVE 的攻擊方式, 網路上有很多相關的資源和介紹, 純粹以寫 IDS rule 方式切入如何偵測到此次事件</p>
+<ol>
+<li>首先找到攻擊的觸發點
 <img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="/images/soc/1.png"
-        data-srcset="/images/soc/1.png, /images/soc/1.png 1.5x, /images/soc/1.png 2x"
+        data-src="/images/zoho/1.png"
+        data-srcset="/images/zoho/1.png, /images/zoho/1.png 1.5x, /images/zoho/1.png 2x"
         data-sizes="auto"
-        alt="/images/soc/1.png"
-        title="1.png" /></p>
-<p>可以把下載的檔案與 hash 顯示出來
+        alt="/images/zoho/1.png"
+        title="1.png" /></li>
+<li>我們很快的看出來攻擊點可能會是
+<code>POST /mdm/client/v1/mdmLogUploader?udid=\..\..\..\webapps\DesktopCentral\_chart&amp;filename=logger.zip</code></li>
+<li>就可以寫我們的第一條規則來偵測它
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">alert http any any -&gt; any any <span class="o">(</span>msg:<span class="s2">&#34;ZOHO exploit attempt to CVE-2020-10189 V1&#34;</span><span class="p">;</span> sid:10004<span class="p">;</span> flow:to_server,established<span class="p">;</span> content:<span class="s2">&#34;POST&#34;</span><span class="p">;</span> content:<span class="s2">&#34;/mdm/client/v1/mdmLogUploader?udid=\\..\\..\\..\\webapps\\DesktopCentral\\_chart&amp;filename=logger.zip&#34;</span><span class="p">;</span> nocase<span class="p">;</span><span class="o">)</span>
+</span></span></code></pre></div><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/zoho/2.png"
+        data-srcset="/images/zoho/2.png, /images/zoho/2.png 1.5x, /images/zoho/2.png 2x"
+        data-sizes="auto"
+        alt="/images/zoho/2.png"
+        title="2.png" /></li>
+<li>但這樣會出現一個問題我們很清楚可以看到他前面是一段 path traversal, 如果攻擊者改成下面的方式我們剛剛寫的那條規則可能就會偵測不到了
+<code>POST /mdm/client/v1/mdmLogUploader?udid=blue\..\..\..\webapps\DesktopCentral\_chart&amp;filename=logger.zip</code></li>
+<li>試著修改下成更通用一點的規則
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">alert http any any -&gt; any any <span class="o">(</span>msg:<span class="s2">&#34;ZOHO exploit attempt to CVE-2020-10189 V2&#34;</span><span class="p">;</span> sid:10004<span class="p">;</span> flow:to_server,established<span class="p">;</span> content:<span class="s2">&#34;POST&#34;</span><span class="p">;</span> content:<span class="s2">&#34;/mdm/client/v1/mdmLogUploader&#34;</span><span class="p">;</span> http_uri<span class="p">;</span> content:<span class="s2">&#34;udid=&#34;</span><span class="p">;</span> http_uri<span class="p">;</span> content:<span class="s2">&#34;..\\webapps\\DesktopCentral&#34;</span><span class="p">;</span> nocase<span class="p">;</span><span class="o">)</span>
+</span></span></code></pre></div></li>
+</ol>
+<p><strong>範例就到這邊, 之後還有更多的衍生, 如果攻擊者用 <code>%5c %2f</code> 試圖繞過規則要如何偵測的到 (?)</strong></p>
+<h3 id="extra-rules"><strong><strong>Extra Rules</strong></strong></h3>
+<p>當然除了客製化的規則, 我們其實也可以用很多通用的規則抓到這個</p>
+<p>例如:</p>
+<p><strong>- Path Traversal</strong>
 <img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="/images/soc/2.png"
-        data-srcset="/images/soc/2.png, /images/soc/2.png 1.5x, /images/soc/2.png 2x"
+        data-src="/images/zoho/4.png"
+        data-srcset="/images/zoho/4.png, /images/zoho/4.png 1.5x, /images/zoho/4.png 2x"
         data-sizes="auto"
-        alt="/images/soc/2.png"
-        title="2.png" /></p>
-<p>找到一個奇怪的檔案叫做 <code>Procdump.zip</code> SHA256 去問一下 VirusTotal 馬上可以知道是否是奇怪的程式, 當然資安公司自己也有很多資料庫或是 hash 各種模糊比對方式
+        alt="/images/zoho/4.png"
+        title="4.png" />
+<strong>- Java Object Deserialization</strong>
 <img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="/images/soc/3.png"
-        data-srcset="/images/soc/3.png, /images/soc/3.png 1.5x, /images/soc/3.png 2x"
+        data-src="/images/zoho/5.png"
+        data-srcset="/images/zoho/5.png, /images/zoho/5.png 1.5x, /images/zoho/5.png 2x"
         data-sizes="auto"
-        alt="/images/soc/3.png"
-        title="3.png" /></p>
-<p>或是比對裡面的 hash 其他資訊
-<img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/soc/4.png"
-        data-srcset="/images/soc/4.png, /images/soc/4.png 1.5x, /images/soc/4.png 2x"
-        data-sizes="auto"
-        alt="/images/soc/4.png"
-        title="4.png" /></p>
-<p>也可以把下載的檔案去翻看看 Event ID 1 找出可以關聯的方向
-<img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/soc/5.png"
-        data-srcset="/images/soc/5.png, /images/soc/5.png 1.5x, /images/soc/5.png 2x"
-        data-sizes="auto"
-        alt="/images/soc/5.png"
+        alt="/images/zoho/5.png"
         title="5.png" /></p>
-<p><strong><strong>就可以設計出一個關聯規則是 - 當特定的程式執行了瀏覽器下載的壓縮檔時候觸發</strong></strong></p>
-<h3 id="hint-"><strong><strong>Hint ????</strong></strong></h3>
-<p><del>別在公司電腦抓怪怪的東西, 都看得一清二楚</del></p>
-<h3 id="reference"><strong><strong>Reference</strong></strong></h3>
-<p><a href="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid=90015" target="_blank" rel="noopener noreffer">Sysmon Event ID 15 description</a></p></div><div class="post-footer" id="post-footer">
+<p><strong><del>這些規則僅用來測試和教學, 不是嚴謹的撰寫, 很容易誤抓其他不相關的東西 QQ</del></strong></p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-03-19</span>
+                <span>Updated on 2024-03-22</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -215,14 +208,13 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/windows/">windows</a>,&nbsp;<a href="/tags/splunk/">splunk</a>,&nbsp;<a href="/tags/log/">log</a>,&nbsp;<a href="/tags/threat-hunting/">threat hunting</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/suricata/">suricata</a>,&nbsp;<a href="/tags/ids/">ids</a>,&nbsp;<a href="/tags/pcap/">pcap</a>,&nbsp;<a href="/tags/analysis/">analysis</a>,&nbsp;<a href="/tags/cve/">CVE</a>,&nbsp;<a href="/tags/zoho-manageengine/">Zoho ManageEngine</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/06/" class="prev" rel="prev" title="Logging PowerShell using Script Block Logging"><i class="fas fa-angle-left fa-fw"></i>Logging PowerShell using Script Block Logging</a>
-            <a href="/posts/08/" class="next" rel="next" title="Crafting Suricata Rules: - A Deep Dive into CVE-2020-10189 Zoho ManageEngine">Crafting Suricata Rules: - A Deep Dive into CVE-2020-10189 Zoho ManageEngine<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"><a href="/posts/07/" class="prev" rel="prev" title="Threat Hunting with Splunk - Detecting Browser Downloaded Files"><i class="fas fa-angle-left fa-fw"></i>Threat Hunting with Splunk - Detecting Browser Downloaded Files</a></div>
 </div>
 </article></div>
             </main><footer class="footer">
