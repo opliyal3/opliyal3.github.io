@@ -1,77 +1,77 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
-        <link>https://blue.sbs/tags/</link>
+        <link>https://blog.3lue.tw/tags/</link>
         <description>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</lastBuildDate><atom:link href="https://blog.3lue.tw/tags/" rel="self" type="application/rss+xml" /><item>
     <title>analysis</title>
-    <link>https://blue.sbs/tags/analysis/</link>
+    <link>https://blog.3lue.tw/tags/analysis/</link>
     <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/analysis/</guid>
+    <guid>https://blog.3lue.tw/tags/analysis/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>CVE</title>
-    <link>https://blue.sbs/tags/cve/</link>
+    <link>https://blog.3lue.tw/tags/cve/</link>
     <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/cve/</guid>
+    <guid>https://blog.3lue.tw/tags/cve/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>ids</title>
-    <link>https://blue.sbs/tags/ids/</link>
+    <link>https://blog.3lue.tw/tags/ids/</link>
     <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/ids/</guid>
+    <guid>https://blog.3lue.tw/tags/ids/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>pcap</title>
-    <link>https://blue.sbs/tags/pcap/</link>
+    <link>https://blog.3lue.tw/tags/pcap/</link>
     <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/pcap/</guid>
+    <guid>https://blog.3lue.tw/tags/pcap/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>suricata</title>
-    <link>https://blue.sbs/tags/suricata/</link>
+    <link>https://blog.3lue.tw/tags/suricata/</link>
     <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/suricata/</guid>
+    <guid>https://blog.3lue.tw/tags/suricata/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Zoho ManageEngine</title>
-    <link>https://blue.sbs/tags/zoho-manageengine/</link>
+    <link>https://blog.3lue.tw/tags/zoho-manageengine/</link>
     <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/zoho-manageengine/</guid>
+    <guid>https://blog.3lue.tw/tags/zoho-manageengine/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>log</title>
-    <link>https://blue.sbs/tags/log/</link>
+    <link>https://blog.3lue.tw/tags/log/</link>
     <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/log/</guid>
+    <guid>https://blog.3lue.tw/tags/log/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>splunk</title>
-    <link>https://blue.sbs/tags/splunk/</link>
+    <link>https://blog.3lue.tw/tags/splunk/</link>
     <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/splunk/</guid>
+    <guid>https://blog.3lue.tw/tags/splunk/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>threat hunting</title>
-    <link>https://blue.sbs/tags/threat-hunting/</link>
+    <link>https://blog.3lue.tw/tags/threat-hunting/</link>
     <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/threat-hunting/</guid>
+    <guid>https://blog.3lue.tw/tags/threat-hunting/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>windows</title>
-    <link>https://blue.sbs/tags/windows/</link>
+    <link>https://blog.3lue.tw/tags/windows/</link>
     <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/tags/windows/</guid>
+    <guid>https://blog.3lue.tw/tags/windows/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

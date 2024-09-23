@@ -1,49 +1,49 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Security - Category - &gt;&gt; echo &#39;honeypot&#39;</title>
-        <link>https://blue.sbs/categories/security/</link>
+        <link>https://blog.3lue.tw/categories/security/</link>
         <description>Security - Category - &gt;&gt; echo &#39;honeypot&#39;</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</lastBuildDate><atom:link href="https://blue.sbs/categories/security/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</lastBuildDate><atom:link href="https://blog.3lue.tw/categories/security/" rel="self" type="application/rss+xml" /><item>
     <title>Crafting Suricata Rules: - A Deep Dive into CVE-2020-10189 Zoho ManageEngine</title>
-    <link>https://blue.sbs/posts/08/</link>
+    <link>https://blog.3lue.tw/posts/08/</link>
     <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/posts/08/</guid>
+    <guid>https://blog.3lue.tw/posts/08/</guid>
     <description><![CDATA[<hr>]]></description>
 </item><item>
     <title>Threat Hunting with Splunk - Detecting Browser Downloaded Files</title>
-    <link>https://blue.sbs/posts/07/</link>
+    <link>https://blog.3lue.tw/posts/07/</link>
     <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/posts/07/</guid>
+    <guid>https://blog.3lue.tw/posts/07/</guid>
     <description><![CDATA[Explore how to elevate your threat hunting capabilities with Splunk.]]></description>
 </item><item>
     <title>Logging PowerShell using Script Block Logging</title>
-    <link>https://blue.sbs/posts/06/</link>
+    <link>https://blog.3lue.tw/posts/06/</link>
     <pubDate>Sat, 18 Nov 2023 10:38:27 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/posts/06/</guid>
+    <guid>https://blog.3lue.tw/posts/06/</guid>
     <description><![CDATA[Logging all PowerShell command activities.]]></description>
 </item><item>
     <title>Pcap Analysis with Suricata</title>
-    <link>https://blue.sbs/posts/05/</link>
+    <link>https://blog.3lue.tw/posts/05/</link>
     <pubDate>Fri, 29 Sep 2023 07:50:35 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/posts/05/</guid>
+    <guid>https://blog.3lue.tw/posts/05/</guid>
     <description><![CDATA[Pcap Analysis with Suricata]]></description>
 </item><item>
     <title>Snort IPS with NFQ</title>
-    <link>https://blue.sbs/posts/04/</link>
+    <link>https://blog.3lue.tw/posts/04/</link>
     <pubDate>Fri, 22 Sep 2023 19:50:52 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/posts/04/</guid>
+    <guid>https://blog.3lue.tw/posts/04/</guid>
     <description><![CDATA[Running Snort with IPS mode]]></description>
 </item><item>
     <title>What is the honeypot ?</title>
-    <link>https://blue.sbs/posts/02/</link>
+    <link>https://blog.3lue.tw/posts/02/</link>
     <pubDate>Tue, 01 Mar 2022 23:28:17 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://blue.sbs/posts/02/</guid>
+    <guid>https://blog.3lue.tw/posts/02/</guid>
     <description><![CDATA[Honeypot is a computer security mechanism set to detect, deflect, or, in some manner, counteract attempts at unauthorized use of information systems. Generally, a honeypot consists of data (for example, in a network site) that appears to be a legitimate part of the site and contain information or resources of value to attackers. It is actually isolated, monitored, and capable of blocking or analyzing the attackers.]]></description>
 </item></channel>
 </rss>
