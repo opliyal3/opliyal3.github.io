@@ -3,7 +3,42 @@
         <title>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
         <link>https://blog.3lue.tw/tags/</link>
         <description>Tags - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</lastBuildDate><atom:link href="https://blog.3lue.tw/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 29 Oct 2024 11:16:07 &#43;0800</lastBuildDate><atom:link href="https://blog.3lue.tw/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>log</title>
+    <link>https://blog.3lue.tw/tags/log/</link>
+    <pubDate>Tue, 29 Oct 2024 11:16:07 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.3lue.tw/tags/log/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>OFFSEC</title>
+    <link>https://blog.3lue.tw/tags/offsec/</link>
+    <pubDate>Tue, 29 Oct 2024 11:16:07 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.3lue.tw/tags/offsec/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>OSDA</title>
+    <link>https://blog.3lue.tw/tags/osda/</link>
+    <pubDate>Tue, 29 Oct 2024 11:16:07 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.3lue.tw/tags/osda/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>SOC-200</title>
+    <link>https://blog.3lue.tw/tags/soc-200/</link>
+    <pubDate>Tue, 29 Oct 2024 11:16:07 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.3lue.tw/tags/soc-200/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>threat hunting</title>
+    <link>https://blog.3lue.tw/tags/threat-hunting/</link>
+    <pubDate>Tue, 29 Oct 2024 11:16:07 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.3lue.tw/tags/threat-hunting/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>analysis</title>
     <link>https://blog.3lue.tw/tags/analysis/</link>
     <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
@@ -37,41 +72,6 @@
     <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://blog.3lue.tw/tags/suricata/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Zoho ManageEngine</title>
-    <link>https://blog.3lue.tw/tags/zoho-manageengine/</link>
-    <pubDate>Fri, 22 Mar 2024 21:24:09 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blog.3lue.tw/tags/zoho-manageengine/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>log</title>
-    <link>https://blog.3lue.tw/tags/log/</link>
-    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blog.3lue.tw/tags/log/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>splunk</title>
-    <link>https://blog.3lue.tw/tags/splunk/</link>
-    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blog.3lue.tw/tags/splunk/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>threat hunting</title>
-    <link>https://blog.3lue.tw/tags/threat-hunting/</link>
-    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blog.3lue.tw/tags/threat-hunting/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>windows</title>
-    <link>https://blog.3lue.tw/tags/windows/</link>
-    <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://blog.3lue.tw/tags/windows/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

@@ -3,7 +3,14 @@
         <title>threat hunting - Tag - &gt;&gt; echo &#39;honeypot&#39;</title>
         <link>https://blog.3lue.tw/tags/threat-hunting/</link>
         <description>threat hunting - Tag - &gt;&gt; echo &#39;honeypot&#39;</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</lastBuildDate><atom:link href="https://blog.3lue.tw/tags/threat-hunting/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 29 Oct 2024 11:16:07 &#43;0800</lastBuildDate><atom:link href="https://blog.3lue.tw/tags/threat-hunting/" rel="self" type="application/rss+xml" /><item>
+    <title>SOC-200/OSDA 認證考試心得分享</title>
+    <link>https://blog.3lue.tw/posts/09/</link>
+    <pubDate>Tue, 29 Oct 2024 11:16:07 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.3lue.tw/posts/09/</guid>
+    <description><![CDATA[SOC-200/OSDA 認證考試心得分享]]></description>
+</item><item>
     <title>Threat Hunting with Splunk - Detecting Browser Downloaded Files</title>
     <link>https://blog.3lue.tw/posts/07/</link>
     <pubDate>Tue, 19 Mar 2024 14:28:18 &#43;0800</pubDate>
